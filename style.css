@@ -34,6 +34,10 @@ body{
     justify-content:flex-end;
     align-items:flex-end;
     justify-content: space-between;
+
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2px;
 }
 
 .socialmedia-icon{
@@ -47,11 +51,22 @@ body{
     border: solid black 2px;
     border-radius: 5px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#navigation-bar>h3{
-    margin-top: 15px;
-    margin-bottom: 15px;
+#navigation-bar>p{
+    margin-right: 3px;
+    margin-left: 3px;
+    font-weight:bold;
+}
+
+#navigation-bar>a:any-link{
+    color: black;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 20px;
 }
 
 #about{
