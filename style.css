@@ -92,13 +92,18 @@ body{
     border-radius: 5px;
 }
 
-#slide-show>img{
-
+.navigation-link{
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    width:180px;
+}
+
+.navigation-link>a>img{
+    
+    width:200px;
+    border:solid 2px darkgrey;
+    border-radius:5px;
 }
 
 #content{
@@ -126,10 +131,63 @@ body{
 #content-text>hr{
     padding-top: 0%;
     margin-top:0%;
-    margin-left:50%;
+    margin-left:30%;
+    margin-bottom:40px;
     border: 3px solid black;
 }
 
+#content-text>a:any-link{
+    margin-left:10%;
+    margin-right:10%;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+#content-text>h3{
+    margin-left:10%;
+    margin-right:10%;
+}
+
 #content-text>p{
-    font-size:18px;;
+    font-size:18px;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+#content-text>h2{
+    margin-left:10%;
+    margin-right:10%;
+}
+
+#content-text>img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+#resume{
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:20px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+#resume>h1{
+    margin-bottom:0px;
+}
+
+#resume>h2{
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size: 18px;
+}
+
+#resume>p{
+    margin-top:4px;
 }
